@@ -170,17 +170,19 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
-  text-align: left;
+  padding: 30px 30px 25px;
+  text-align: center;
   width: 270px;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
   margin: 0;
-  max-width: 100%;
-  min-height: 248px;
-  min-width: 100%;
+  /* max-width: 100%; */
+  width: 100%;
+  border-radius: 45px 0 0 0;
+  /* min-height: 248px;
+  min-width: 100%; */
 }
 #restaurants-list li h1 {
   color: #f18200;
@@ -210,10 +212,16 @@ nav h1 a {
   /* -webkit-transition-duration: 0.4s; */
   /* for Safari Web Browser */
   /* transition-duration: 0.4s; */
-  text-decoration: none;
+  /* text-decoration: none;
   overflow: hidden;
-  cursor: pointer;
+  cursor: pointer; */
 }
+
+#restaurants-list li a:hover {
+  background: linear-gradient(to right, red , yellow);
+  box-shadow: 5px 5px 5px orange;
+}
+
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
