@@ -196,12 +196,12 @@ label {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition-duration: 0.4s;
+  /* -webkit-transition-duration: 0.4s; */
   /* for Safari Web Browser */
-  transition-duration: 0.4s;
+  /* transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
-  cursor: pointer;
+  cursor: pointer; */
 }
 
 /* ====================== Restaurant Details ====================== */
