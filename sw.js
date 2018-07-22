@@ -18,7 +18,7 @@ let urlToCache = [
     './js/main.js',
     './js/restaurant_info.js',
     './js/dbhelper.js',
-
+    './index.html'
 ];
 self.addEventListener('install', function (event) {
 
